@@ -1,0 +1,11 @@
+{
+  "customers": {
+    "columns": ["id", "name", "revenue", "join_date"]
+  },
+  "employees": {
+    "columns": ["id", "name", "department_id", "join_date"]
+  },
+  "departments": {
+    "columns": ["id", "name"]
+  }
+}
