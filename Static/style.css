@@ -1,0 +1,70 @@
+/* Modern AI background with subtle animation */
+.ai-bg {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  background-size: 400% 400%;
+  animation: gradientShift 15s ease infinite;
+}
+
+/* Smooth gradient animation */
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Chat card styling */
+.chat-card {
+  width: 70%;
+  max-width: 800px;
+  border-radius: 16px;
+  overflow: hidden;
+  backdrop-filter: blur(12px);
+  background: rgba(255, 255, 255, 0.9);
+}
+
+/* Chat box */
+.chat-box {
+  height: 400px;
+  overflow-y: auto;
+  background: #f9fafb;
+  border-radius: 8px;
+  padding: 15px;
+}
+
+/* User message bubble */
+.user-msg {
+  text-align: right;
+  margin: 8px 0;
+  padding: 10px;
+  background: #e5e7eb;
+  border-radius: 12px;
+  display: inline-block;
+  max-width: 70%;
+}
+
+/* Copilot message bubble */
+.copilot-msg {
+  text-align: left;
+  margin: 8px 0;
+  padding: 10px;
+  background: #dbeafe;
+  border-radius: 12px;
+  display: inline-block;
+  max-width: 70%;
+}
+
+.ai-bg {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364) !important;
+  background-size: 400% 400%;
+  animation: gradientShift 15s ease infinite;
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+body {
+  background: red !important;
+}
